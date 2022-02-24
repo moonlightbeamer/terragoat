@@ -8,9 +8,9 @@ resource "aws_s3_bucket" "docking_bay" {
   tags = {
     Name                 = "Docking Bay"
     Environment          = "Dev"
-    git_commit           = "4e5f9ef24e17df44757b47c5e32c657cb9476553"
+    git_commit           = "d50bd6d30b8f2d90fd424569a0c461731568aade"
     git_file             = "terraform/simple_instance/s3.tf"
-    git_last_modified_at = "2022-02-24 19:30:29"
+    git_last_modified_at = "2022-02-24 20:59:21"
     git_last_modified_by = "31662800+moonlightbeamer@users.noreply.github.com"
     git_modifiers        = "31662800+moonlightbeamer"
     git_org              = "moonlightbeamer"
